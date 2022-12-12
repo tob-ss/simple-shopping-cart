@@ -71,7 +71,6 @@ function addToCartClicked(event) {
     let title = shopItem.getElementsByClassName('shop__item-title')[0].innerText
     let price = shopItem.getElementsByClassName('shop__item-price')[0].innerText
     let imageSrc = shopItem.getElementsByClassName('shop__item-image')[0].src
-    console.log(title, price, imageSrc)
     addItemToCart(title, price, imageSrc)
 }
 
@@ -122,7 +121,6 @@ const updateCartTotal = () => {
         let price = parseFloat(priceElement.innerText.replace('£', ''))
         let quantity = quantityElement.value
         total = total + (price * quantity)
-        console.log(price * quantity)
     }
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('cart__total-sum')[0].innerText = '£' + total
