@@ -43,7 +43,7 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Thank you for checking out this project! Version 2 will have a checkout :)')
+    alert('Thank you for checking out this project. A checkout will be added in version 2!')
     let cartItems = document.getElementsByClassName('cart__items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
