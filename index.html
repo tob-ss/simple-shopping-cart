@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Shopping Cart</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <div class="navbar__logo">
+                    Simple Shopping Cart
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="main">
+                <div class="main__container">
+                    <div class="shop__items">
+                        <div class="shop__item">
+                            <span class="shop__item-title">Breakfast Burrito</span>
+                            <div class="shop__item-image_container">
+                                <img class="shop__item-image" src="images/Breakfast-Burritos.jpg">
+                            </div>
+                            <div class="shop__item-details">
+                                <span class="shop__item-price">£5.99</span>
+                                <button class="shop__item-button" type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="shop__item">
+                            <span class="shop__item-title">Egusi Soup</span>
+                            <div class="shop__item-image_container">
+                                <img class="shop__item-image" src="images/egusi-soup.jpeg">
+                            </div>
+                            <div class="shop__item-details">
+                                <span class="shop__item-price">£7.99</span>
+                                <button class="shop__item-button" type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="shop__item">
+                            <span class="shop__item-title">Plantain</span>
+                            <div class="shop__item-image_container">
+                                <img class="shop__item-image" src="images/fried-plantain.jpg">
+                            </div>
+                            <div class="shop__item-details">
+                                <span class="shop__item-price">£4.50</span>
+                                <button class="shop__item-button" type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="shop__item">
+                            <span class="shop__item-title">Jollof Rice</span>
+                            <div class="shop__item-image_container">
+                                <img class="shop__item-image" src="images/jollof-rice.jpeg">
+                            </div>
+                            <div class="shop__item-details">
+                                <span class="shop__item-price">£5.99</span>
+                                <button class="shop__item-button" type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="shop__item">
+                            <span class="shop__item-title">Shake</span>
+                            <div class="shop__item-image_container">
+                                <img class="shop__item-image" src="images/shake.jpeg">
+                            </div>
+                            <div class="shop__item-details">
+                                <span class="shop__item-price">£3.50</span>
+                                <button class="shop__item-button" type="button">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="cart">
+                <div class="cart__container">
+                    <span class="cart__container-title">Cart</span>
+                    <div class="cart__titles">
+                        <span class="item__header">Item</span>
+                        <span class="price__header">Price</span>
+                        <span class="quantity__header">Quantity</span>
+                    </div>
+                    <div class="cart__item-container">
+                        <div class="cart__item-details">
+                            details
+                        </div>
+                        <div class="cart__item-price">
+                            Price
+                        </div>
+                        <div class="cart__item-quantity">
+                            <input type="number" id="cart-quantity" name="cart-quantity"><br>
+                            <button class="cart__item-remove" type="button">Remove</button>
+                        </div>
+                        
+                    </div>
+                    <div class="cart__item-container">
+                        <div class="cart__item-details">
+                            details
+                        </div>
+                        <div class="cart__item-price">
+                            Price
+                        </div>
+                        <div class="cart__item-quantity">
+                            <input type="number" id="cart-quantity" name="cart-quantity"><br>
+                            <button class="cart__item-remove" type="button">Remove</button>
+                        </div>
+                        
+                    </div>
+                    <div class="cart__total">
+                        Total
+                    </div>
+                    <button class="purchase" type="button">Proceed to Checkout</button>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: #1a1d2e;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 40px;
+}
+
+.shop__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.shop__item-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.shop__item-image_container {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.shop__item-image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shop__item-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+}
+
+.shop__item-button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    text-align: center;
+    transition: all 0.3 ease;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.shop__item-button:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+}
+
+.cart__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.cart__container-title {
+    margin-bottom: 50px;
+    margin-top: -200px;
+    font-size: 30px;
+}
+
+.cart__titles {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 450px;
+}
+
+.item__header {
+    border-bottom: #000 1px solid;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.price__header {
+    border-bottom: #000 1px solid;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.quantity__header {
+    border-bottom: #000 1px solid;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.cart__item-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 450px;
+    height: 100px;
+    border-bottom: 1px #000 solid;
+}
+
+.cart__item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+}
+
+.cart__item-price {
+    width: 150px;
+}
+
+.cart__item-quantity {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    
+}
+
+.cart__item-remove {
+    background-color: #f76458;
+    color: #fff;
+    border-radius: 5%;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cart__item-remove:hover {
+    background-color: #fff;
+    color: #f76458;
+    cursor: pointer;
+    box-shadow:0 0 10px #f76458
+}
+
+#cart-quantity {
+    height: 30px;
+    max-width: 40px;
+    margin-right: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10%;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd
+}
+
+.cart__total {
+    display: flex;
+    justify-content: end;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 250px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.purchase {
+    background-color: #fff;
+    color: #000;
+    padding: 20px 30px;
+    border: 1px solid #000;
+    text-align: center;
+    transition: all 0.3 ease;
+    box-shadow: 0 0 10px #ccc;
+    margin: 50px;
+}
+
+.purchase:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+}
